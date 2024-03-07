@@ -1,0 +1,16 @@
+name: $name
+main: SMMW
+version: $version
+author: Somichev
+description: $description
+api-version: "$apiVersion"
+
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.9.22
+  - org.yaml:snakeyaml:2.2
+  - com.google.guava:guava:33.0.0-jre
+  - io.netty:netty-all:4.1.107.Final
+
+commands:
+  smmw:
+    permission: op
